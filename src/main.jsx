@@ -7,7 +7,7 @@ import NewPost, { createPostAction } from "./components/NewPost.jsx";
 import PostsList from "./components/PostsList.jsx";
 const router = createBrowserRouter([
   {
-    path: "/Social-Media/",
+    path: "/",
     element: <App />,
     children: [
       { path: "/", element: <PostsList /> },

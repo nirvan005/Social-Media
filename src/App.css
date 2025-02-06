@@ -1,0 +1,9 @@
+.header-tabs:hover {
+  background-color: rgb(9, 35, 68);
+}
+.main-page {
+  width: 100%;
+}
+.sidebar {
+  min-height: 100vh;
+}

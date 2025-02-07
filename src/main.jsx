@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <PostsList /> },
+      { path: "/Social-Media", element: <PostsList /> },
       { path: "/new-post", element: <NewPost />, action: createPostAction },
     ],
   },

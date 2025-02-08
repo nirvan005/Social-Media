@@ -19,6 +19,10 @@ function NewPost() {
       },
       views: 0,
     };
+    userId.current.value = "";
+    title.current.value = "";
+    body.current.value = "";
+    tags.current.value = "";
     addPost(post);
   };
   return (
@@ -99,6 +103,5 @@ export async function createPostAction(data) {
     .then((res) => res.json())
     .then((post) => (postData["id"] = post.id));
   console.log(postData);
-  return redirect("/");
 }
 export default NewPost;

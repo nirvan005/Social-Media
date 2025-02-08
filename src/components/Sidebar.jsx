@@ -26,7 +26,7 @@ function Sidebar({ handleTabClick }) {
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/Social-Media"
               className={`nav-link text-white ${
                 tab == "Home" ? "active" : null
               }`}
@@ -41,7 +41,7 @@ function Sidebar({ handleTabClick }) {
           </li>
           <li>
             <Link
-              to="/new-post"
+              to="/Social-Media/new-post"
               className={`nav-link text-white ${
                 tab == "Create Post" ? "active" : null
               }`}

@@ -7,11 +7,11 @@ import NewPost, { createPostAction } from "./components/NewPost.jsx";
 import PostsList from "./components/PostsList.jsx";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Social-Media",
     element: <App />,
     children: [
-      { path: "/Social-Media", element: <PostsList /> },
-      { path: "/Social-Media/new-post", element: <NewPost />, action: createPostAction },
+      { path: "/", element: <PostsList /> },
+      { path: "/new-post", element: <NewPost />, action: createPostAction },
     ],
   },
 ]);
